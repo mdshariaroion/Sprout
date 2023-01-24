@@ -1,4 +1,20 @@
 @media only screen and (max-width:576px) {
+    .response-image{
+        height: 100%;
+        width: 100%;
+    }
+    .response{
+        font-size: 12px;
+    }
+    .response-paragraph{
+        font-size: 8px;
+    }
+    .input-response{
+        height: 30px;
+    }
+    .button-response{
+        height: 30px;
+    }
     .new-response{
         flex-direction: column;
     }
