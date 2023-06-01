@@ -1,7 +1,22 @@
+.navbar-brand img{
+    height: 100px;
+    width: 200px;
+}
+.backgroung-color-css{
+    background-color: rgb(217, 255, 199);
+}
+.image-size{
+    height: 200px;
+    width: 400px;
+}
 @media only screen and (max-width:576px) {
     .response-image{
         height: 100%;
         width: 100%;
+    }
+    .text-slide{
+        height: 300px;
+        width: 300px;
     }
     .response{
         font-size: 12px;
@@ -17,5 +32,9 @@
     }
     .new-response{
         flex-direction: column;
+    }
+    .image-size{
+        height: 100%;
+        width: 100%;
     }
 }
